@@ -6,8 +6,9 @@ import classes from "./Header.module.css";
 
 const Header = () => {
   return (
-    <header className={classes.header}>
+    <header className={classes["header"]}>
       <img
+        className={classes["header-logo"]}
         src="https://assets.allegrostatic.com/metrum/brand/allegro-347440b030.svg"
         alt="Allegro.pl - wygodne i bezpieczne zakupy online, największy wybór ofert"
       />

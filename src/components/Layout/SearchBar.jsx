@@ -4,6 +4,7 @@ import classes from "./SearchBar.module.css";
 
 const SearchBar = () => {
   return (
+    // TODO - 'szukaj wielu' should disappear when user types sth in input
     <form className={classes["search-form"]}>
       <div className={classes["input-container"]}>
         <input type="text" placeholder="czego szukasz?" size="30" />
