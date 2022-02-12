@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { useMediaQuery } from "react-responsive";
 
 import classes from "./LoginButton.module.css";

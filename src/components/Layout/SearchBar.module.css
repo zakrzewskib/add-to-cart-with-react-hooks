@@ -1,9 +1,15 @@
 .search-form {
+    font-size: 1.4rem;
+    border: 1px solid #afafaf;
     display: flex;
     align-items: center;
-    font-size: 1.4rem;
+    justify-content: space-between;
     gap: 1rem;
-    border: 1px solid #afafaf;
+    width: 100%;
+}
+
+.categories-and-search {
+    display: flex;
 }
 
 button,
@@ -37,11 +43,15 @@ input:focus {
 }
 
 .input-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
     padding: 1rem;
     border-right: 1px solid #afafaf;
 }
 
 .categories {
+    width: 17rem;
     display: flex;
     align-items: center;
     gap: 1rem;

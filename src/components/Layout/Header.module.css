@@ -1,8 +1,12 @@
-.header {
+.header-flex {
     display: flex;
     justify-content: space-between;
     height: 7rem;
     align-items: center;
+    gap: 2rem;
+}
+
+.header {
     padding: 1rem 2rem;
 }
 
