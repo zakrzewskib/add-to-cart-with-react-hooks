@@ -41,7 +41,7 @@ const Offer = props => {
           </div>
         </h2>
       </div>
-      {isHovering && <Modal />}
+      <Modal isHovering={isHovering} />
     </li>
   );
 };
