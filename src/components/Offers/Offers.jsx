@@ -18,6 +18,12 @@ const Offers = () => {
       img: "https://a.allegroimg.com/s180/111027/64d6f9604e659010ed665c6fc167/Samsung-A50-4G-LTE-128GB-4GB-GWARANCJA-Sklep",
       price: 679.99,
     },
+    {
+      id: "3",
+      name: "Smartfon XIAOMI Redmi 9C 3/64GB Szary",
+      img: "https://a.allegroimg.com/s180/11a6c3/45a4d8e64a79965a30294ebdb6bc/Smartfon-XIAOMI-Redmi-9C-3-64GB-Szary",
+      price: 499.0,
+    },
   ];
 
   const offerList = offers.map(offer => {
