@@ -3,6 +3,11 @@
     margin-bottom: 2.4rem;
 }
 
+.breadcrumbs a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .breadcrumbs li:after {
     content: "\00a0\00a0-\00a0\00a0";
 }

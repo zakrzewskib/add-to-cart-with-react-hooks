@@ -16,7 +16,7 @@ const LoginButton = () => {
       )}
       {!isLessThan1200px && (
         <div className={classes["login-button"]}>
-          <a href="address" className={classes["be-smart"]}>
+          <a href="placeholder" className={classes["be-smart"]}>
             bądź
             <img
               src="https://assets.allegrostatic.com/metrum/icon/smart-098a60541f.svg"
