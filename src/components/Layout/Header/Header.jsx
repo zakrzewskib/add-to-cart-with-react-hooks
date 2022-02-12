@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import Navigation from "./Navigation";
 import SearchBar from "./SearchBar";
 
@@ -9,23 +9,6 @@ import classes from "./Header.module.css";
 const Header = () => {
   const isLessThan1000px = useMediaQuery({ query: "(max-width: 1030px)" });
   const isLessThan600px = useMediaQuery({ query: "(max-width: 600px)" });
-  const [isSticky, setSticky] = useState(false);
-
-  const addSticky = e => {
-    const scrollTop = window.scrollY;
-    if (scrollTop >= 90) {
-      setSticky(true);
-    } else {
-      setSticky(false);
-    }
-  };
-
-  useEffect(() => {
-    window.addEventListener("scroll", addSticky);
-    return () => {
-      window.removeEventListener("scroll", addSticky);
-    };
-  });
 
   return (
     <div className="sticky">
