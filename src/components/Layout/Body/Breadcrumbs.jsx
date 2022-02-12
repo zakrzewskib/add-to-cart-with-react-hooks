@@ -4,10 +4,10 @@ import classes from "./Breadcrumbs.module.css";
 
 const Breadcrumbs = () => {
   return (
-    <ul>
+    <ul className={classes["breadcrumbs"]}>
       <li>Allegro</li>
       <li>Elektronika</li>
-      <li>Telefony i Akcesoria</li>
+      <li className={classes["active"]}>Telefony i Akcesoria</li>
     </ul>
   );
 };

@@ -6,9 +6,7 @@ import classes from "./Body.module.css";
 const Body = () => {
   return (
     <div>
-      <h1>
-        Telefony i Akcesoria <span>(11 597 244oferty)</span>
-      </h1>
+      <h1 className={classes["body-header"]}>Telefony i Akcesoria</h1>
 
       <Breadcrumbs />
 

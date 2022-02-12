@@ -3,6 +3,11 @@
     gap: 1rem;
 }
 
+.body-header {
+    margin-top: 2rem;
+    margin-bottom: 1.6rem;
+}
+
 .subcategories,
 .sponsored,
 .offers {
