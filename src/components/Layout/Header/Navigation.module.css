@@ -6,4 +6,7 @@
 
 .nav-list li {
     cursor: pointer;
+    height: 9rem;
+    display: flex;
+    align-items: center;
 }

@@ -41,7 +41,9 @@ const Offer = props => {
           </div>
         </h2>
       </div>
-      <Modal isHovering={isHovering} />
+      <Modal isHovering={isHovering} myClass="offer-modal">
+        <button className="primary-button">Dodaj do koszyka</button>
+      </Modal>
     </li>
   );
 };

@@ -4,12 +4,12 @@ import classes from "./Modal.module.css";
 const Modal = props => {
   return (
     <div
-      className={`${classes["modal"]} ${
+      className={`${classes[props.myClass]} ${
         props.isHovering ? classes["block"] : ""
-      }
-  `}
+      } 
+      `}
     >
-      <button className="primary-button">Dodaj do koszyka</button>
+      {props.children}
     </div>
   );
 };

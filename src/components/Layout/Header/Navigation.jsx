@@ -26,9 +26,7 @@ const Navigation = () => {
             alt=""
           />
         </li>
-        <li>
-          <Cart />
-        </li>
+        <Cart />
         <li>
           <LoginButton />
         </li>

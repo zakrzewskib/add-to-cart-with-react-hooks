@@ -1,15 +1,26 @@
-.modal {
+.offer-modal,
+.cart-modal {
     position: absolute;
-    top: 50%;
-    left: 15%;
-    transform: translateY(-50%);
     background-color: white;
-    width: 60rem;
-    height: 40rem;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
     z-index: 6;
     animation: slide-down 300ms ease-out forwards;
     display: none;
+}
+
+.offer-modal {
+    top: 50%;
+    left: 15%;
+    transform: translateY(-50%);
+    width: 60rem;
+    height: 40rem;
+}
+
+.cart-modal {
+    top: 8rem;
+    right: -11rem;
+    width: 40rem;
+    height: 20rem;
 }
 
 .block {
