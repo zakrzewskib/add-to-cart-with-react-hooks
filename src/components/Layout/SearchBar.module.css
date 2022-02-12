@@ -46,8 +46,3 @@ input:focus {
     align-items: center;
     gap: 1rem;
 }
-
-.categories img {
-    transform: rotate(90deg);
-    height: 100%;
-}

@@ -1,0 +1,27 @@
+.login-button {
+    position: relative;
+}
+
+.be-smart {
+    display: flex;
+    font-size: smaller;
+    gap: 0.5rem;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+    position: absolute;
+    top: -10px;
+    left: 8px;
+}
+
+.my-allegro {
+    display: flex;
+    gap: 0.2rem;
+    align-items: center;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+}
+
+.be-smart img {
+    height: 16px !important;
+}

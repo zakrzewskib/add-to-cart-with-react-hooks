@@ -3,6 +3,7 @@ import Navigation from "./Navigation";
 import SearchBar from "./SearchBar";
 
 import classes from "./Header.module.css";
+import LoginButton from "./LoginButton";
 
 const Header = () => {
   return (
@@ -14,6 +15,7 @@ const Header = () => {
       />
       <SearchBar />
       <Navigation />
+      <LoginButton />
     </header>
   );
 };

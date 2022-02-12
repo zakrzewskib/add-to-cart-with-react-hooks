@@ -17,3 +17,8 @@ body {
     max-width: 120rem;
     margin: 0 auto;
 }
+
+.dropdown-icon {
+    transform: rotate(90deg);
+    height: 100%;
+}

@@ -13,6 +13,7 @@ const SearchBar = () => {
       <div className={classes["categories"]}>
         Telefony i Akcesoria
         <img
+          className="dropdown-icon"
           src="https://assets.allegrostatic.com/metrum/icon/arrowhead-9148b8f39c.svg"
           alt=""
         />
