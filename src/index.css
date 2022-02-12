@@ -12,3 +12,8 @@ body {
     font-family: "Rubik", sans-serif;
     font-size: 1.4rem;
 }
+
+.container {
+    max-width: 120rem;
+    margin: 0 auto;
+}

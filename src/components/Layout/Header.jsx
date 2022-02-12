@@ -6,7 +6,7 @@ import classes from "./Header.module.css";
 
 const Header = () => {
   return (
-    <header className={classes["header"]}>
+    <header className={`${classes["header"]} container`}>
       <img
         className={classes["header-logo"]}
         src="https://assets.allegrostatic.com/metrum/brand/allegro-347440b030.svg"
