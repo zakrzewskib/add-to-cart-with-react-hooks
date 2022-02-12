@@ -1,5 +1,6 @@
 import React from "react";
 import Cart from "../Cart/Cart";
+import LoginButton from "./LoginButton";
 
 import classes from "./Navigation.module.css";
 
@@ -27,6 +28,9 @@ const Navigation = () => {
         </li>
         <li>
           <Cart />
+        </li>
+        <li>
+          <LoginButton />
         </li>
       </ul>
     </nav>
