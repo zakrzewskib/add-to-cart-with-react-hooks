@@ -31,3 +31,13 @@ ul {
 .body-container {
     background-color: #edeff1;
 }
+
+.primary-button {
+    background-color: #ff7b33;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 1rem 1.6rem;
+    cursor: pointer;
+}

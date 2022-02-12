@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState } from "react";
+import Modal from "../UI/Modal";
 
 import classes from "./Offer.module.css";
 
@@ -8,8 +9,23 @@ const Offer = props => {
   const decimal = (offer.price - Math.floor(offer.price)) * 100;
   const decimalToInt = String("0" + Math.trunc(decimal)).slice(-2);
 
+  const [isHovering, setIsHovering] = useState(false);
+
+  const handleMouseOver = () => {
+    setIsHovering(true);
+  };
+
+  const handleMouseOut = () => {
+    setIsHovering(false);
+  };
+
   return (
-    <li className={classes["offer"]}>
+    <li
+      className={classes["offer"]}
+      onMouseOver={handleMouseOver}
+      onMouseOut={handleMouseOut}
+    >
+      {isHovering && <Modal />}
       <div
         className={classes["img-container"]}
         style={{

@@ -20,12 +20,12 @@ const SearchBar = props => {
               alt=""
             />
           </div>
-          <button className={classes["primary-button"]}>Szukaj</button>
+          <button className="primary-button">Szukaj</button>
         </div>
       )}
       {props.isMobile && (
         <button
-          className={`${classes["primary-button"]} ${classes["primary-button-mobile"]}`}
+          className={`primary-button ${classes["primary-button-mobile"]}`}
         >
           <img
             src="https://assets.allegrostatic.com/metrum/icon/magnifying-glass-fb277ba2cf.svg"
