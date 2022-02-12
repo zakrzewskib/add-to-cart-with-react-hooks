@@ -15,10 +15,15 @@ body {
 
 .container {
     max-width: 120rem;
+    padding: 1rem 2rem;
     margin: 0 auto;
 }
 
 .dropdown-icon {
     transform: rotate(90deg);
     height: 100%;
+}
+
+.body-container {
+    background-color: #edeff1;
 }

@@ -11,7 +11,7 @@ const Header = () => {
   const isLessThan600px = useMediaQuery({ query: "(max-width: 600px)" });
 
   return (
-    <header className={`${classes["header"]} container`}>
+    <header className={`${classes["header"]}`}>
       <div className={classes["header-flex"]}>
         <img
           className={`${

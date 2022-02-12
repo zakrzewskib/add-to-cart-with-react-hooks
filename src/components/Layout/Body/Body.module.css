@@ -1,0 +1,25 @@
+.body-content {
+    display: flex;
+    gap: 1rem;
+}
+
+.subcategories,
+.sponsored,
+.offers {
+    background-color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+.sponsored-and-offers {}
+
+.sponsored {
+    height: 15rem;
+    margin-bottom: 1rem;
+    min-width: calc(120rem - 30rem);
+}
+
+.subcategories {
+    height: 150rem;
+    min-width: 30rem;
+}
