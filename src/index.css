@@ -13,6 +13,10 @@ body {
     font-size: 1.4rem;
 }
 
+ul {
+    list-style-type: none;
+}
+
 .container {
     max-width: 120rem;
     padding: 1rem 2rem;

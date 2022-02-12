@@ -2,6 +2,7 @@ import React from "react";
 import Breadcrumbs from "./Breadcrumbs";
 
 import classes from "./Body.module.css";
+import Offers from "../../Offers/Offers";
 
 const Body = () => {
   return (
@@ -18,7 +19,9 @@ const Body = () => {
           <div className={classes["sponsored"]}>
             <h2>Sponsorowane</h2>
           </div>
-          <div className={classes["offers"]}>Oferty</div>
+          <div className={classes["offers"]}>
+            <Offers />
+          </div>
         </div>
       </div>
     </div>

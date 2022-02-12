@@ -1,0 +1,23 @@
+.offer {
+    display: flex;
+}
+
+.offer-description {
+    text-align: left;
+    color: #767676;
+}
+
+.name {
+    font-weight: normal;
+    font-size: 1.8rem;
+}
+
+.price {
+    color: black;
+    font-weight: bold;
+    font-size: 2.8rem;
+}
+
+.decimal {
+    font-size: 2rem;
+}
