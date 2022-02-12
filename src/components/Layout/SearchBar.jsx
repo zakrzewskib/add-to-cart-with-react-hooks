@@ -10,17 +10,29 @@ const SearchBar = props => {
         <input type="text" placeholder="czego szukasz?" />
         <button className={classes["link-button"]}>szukaj wielu</button>
       </div>
-      <div className={classes["categories-and-search"]}>
-        <div className={classes["categories"]}>
-          Telefony i Akcesoria
+      {!props.isMobile && (
+        <div className={classes["categories-and-search"]}>
+          <div className={classes["categories"]}>
+            Telefony i Akcesoria
+            <img
+              className="dropdown-icon"
+              src="https://assets.allegrostatic.com/metrum/icon/arrowhead-9148b8f39c.svg"
+              alt=""
+            />
+          </div>
+          <button className={classes["primary-button"]}>Szukaj</button>
+        </div>
+      )}
+      {props.isMobile && (
+        <button
+          className={`${classes["primary-button"]} ${classes["primary-button-mobile"]}`}
+        >
           <img
-            className="dropdown-icon"
-            src="https://assets.allegrostatic.com/metrum/icon/arrowhead-9148b8f39c.svg"
+            src="https://assets.allegrostatic.com/metrum/icon/magnifying-glass-fb277ba2cf.svg"
             alt=""
           />
-        </div>
-        <button className={classes["primary-button"]}>Szukaj</button>
-      </div>
+        </button>
+      )}
     </form>
   );
 };

@@ -4,7 +4,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 1rem;
     width: 100%;
 }
 
@@ -35,6 +34,15 @@ input:focus {
     cursor: pointer;
 }
 
+.primary-button-mobile {
+    padding: 0.3rem;
+}
+
+.primary-button-mobile img {
+    height: 32px;
+    filter: brightness(0) invert(1);
+}
+
 .link-button {
     border: none;
     background: none;
@@ -52,6 +60,7 @@ input:focus {
 
 .categories {
     width: 17rem;
+    margin-left: 1rem;
     display: flex;
     align-items: center;
     gap: 1rem;
