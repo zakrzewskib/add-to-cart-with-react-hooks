@@ -47,12 +47,10 @@ ul {
 }
 
 .sticky {
-    position: fixed;
+    position: sticky;
     top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 100%;
-    z-index: 999;
-    background-color: #ffffff !important;
+    background-color: #ffffff;
     box-shadow: 0 2px 5px -2px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    z-index: 5;
 }
