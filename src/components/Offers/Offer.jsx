@@ -25,15 +25,12 @@ const Offer = props => {
       onMouseOver={handleMouseOver}
       onMouseOut={handleMouseOut}
     >
-      {isHovering && <Modal />}
       <div
         className={classes["img-container"]}
         style={{
           backgroundImage: `url(${offer.img})`,
         }}
-      >
-        {/* <img src={offer.img} alt="" /> */}
-      </div>
+      ></div>
       <div className={classes["offer-description"]}>
         <h2 className={classes["name"]}>{offer.name}</h2>
         <h2 className={classes["price"]}>
@@ -44,6 +41,7 @@ const Offer = props => {
           </div>
         </h2>
       </div>
+      {isHovering && <Modal />}
     </li>
   );
 };

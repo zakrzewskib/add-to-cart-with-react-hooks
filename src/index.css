@@ -33,11 +33,15 @@ ul {
 }
 
 .primary-button {
-    background-color: #ff7b33;
+    background-color: #ff5a00;
     border: none;
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 1px;
     padding: 1rem 1.6rem;
     cursor: pointer;
+}
+
+.primary-button:hover {
+    background-color: #ff7b33;
 }
