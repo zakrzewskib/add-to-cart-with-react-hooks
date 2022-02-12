@@ -10,7 +10,14 @@ const Offer = props => {
 
   return (
     <li className={classes["offer"]}>
-      <img src={offer.img} alt="" />
+      <div
+        className={classes["img-container"]}
+        style={{
+          backgroundImage: `url(${offer.img})`,
+        }}
+      >
+        {/* <img src={offer.img} alt="" /> */}
+      </div>
       <div className={classes["offer-description"]}>
         <h2 className={classes["name"]}>{offer.name}</h2>
         <h2 className={classes["price"]}>

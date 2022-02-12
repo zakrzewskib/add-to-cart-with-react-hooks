@@ -8,15 +8,15 @@ const Offers = () => {
   const offers = [
     {
       id: "1",
-      name: "Smartfon Apple iPhone 11 4 GB / 128 GB czarny",
-      img: "https://a.allegroimg.com/s180/11c1dd/d1e29d53460ebd265fef8a536ed8/APPLE-IPHONE-11-128GB-WYBOR-KOLOROW-KL-A",
-      price: 679.99,
+      name: "Niebieski Smartfon MOTOROLA Moto E7 Power 4/64GB",
+      img: "https://a.allegroimg.com/s180/11287d/e4c818ae4965b6101adc6b31bf8d/Niebieski-Smartfon-MOTOROLA-Moto-E7-Power-4-64GB",
+      price: 499.0,
     },
     {
       id: "2",
-      name: "Smartfon Apple iPhone 11 4 GB / 128 GB czarny",
-      img: "https://a.allegroimg.com/s180/11c1dd/d1e29d53460ebd265fef8a536ed8/APPLE-IPHONE-11-128GB-WYBOR-KOLOROW-KL-A",
-      price: 248.0,
+      name: "Samsung A50 4G LTE 128GB/4GB GWARANCJA Sklep",
+      img: "https://a.allegroimg.com/s180/111027/64d6f9604e659010ed665c6fc167/Samsung-A50-4G-LTE-128GB-4GB-GWARANCJA-Sklep",
+      price: 679.99,
     },
   ];
 
@@ -24,7 +24,12 @@ const Offers = () => {
     return <Offer offer={offer} key={offer.id} />;
   });
 
-  return <ul>{offerList}</ul>;
+  return (
+    <div className={classes["offers"]}>
+      <h2>Oferty promowane</h2>
+      <ul className={classes["offers-list"]}>{offerList}</ul>
+    </div>
+  );
 };
 
 export default Offers;

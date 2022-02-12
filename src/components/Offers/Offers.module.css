@@ -1,0 +1,18 @@
+.offers-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.offers {
+    text-align: left;
+}
+
+.offers h2 {
+    margin-bottom: 1.2rem;
+}
+
+.offers-list li:hover {
+    background-color: #eee;
+}
