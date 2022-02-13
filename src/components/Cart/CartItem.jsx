@@ -10,10 +10,10 @@ const CartItem = props => {
 
   return (
     <div className={classes["cart-item"]}>
-      <p> {name}</p>
+      <p>{name}</p>
       <p>{price} zł</p>
       <p>{item.amount}</p>
-      <button>x</button>
+      <button onClick={() => props.onRemove(item.id)}>x</button>
     </div>
   );
 };
