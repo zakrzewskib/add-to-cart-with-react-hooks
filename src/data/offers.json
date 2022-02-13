@@ -1,0 +1,321 @@
+{
+    "offers": [{
+            "id": 1,
+            "name": "APPLE IPHONE 11 128GB - WYBÓR KOLORÓW - KL A+",
+            "img": "https://a.allegroimg.com/s180/11c1dd/d1e29d53460ebd265fef8a536ed8/APPLE-IPHONE-11-128GB-WYBOR-KOLOROW-KL-A",
+            "price": "2 299,00"
+        },
+        {
+            "id": 2,
+            "name": "SMARTWATCH MĘSKI do IPHONE XIAOMI SAMSUNG HUAWEI",
+            "img": "https://a.allegroimg.com/s180/11d431/093086e24fa78ea7bd1d80bb4885/SMARTWATCH-MESKI-do-IPHONE-XIAOMI-SAMSUNG-HUAWEI",
+            "price": "189,99"
+        },
+        {
+            "id": 3,
+            "name": "Niebieski Smartfon MOTOROLA Moto E7 Power 4/64GB",
+            "img": "https://a.allegroimg.com/s180/11287d/e4c818ae4965b6101adc6b31bf8d/Niebieski-Smartfon-MOTOROLA-Moto-E7-Power-4-64GB",
+            "price": "499,00"
+        },
+        {
+            "id": 4,
+            "name": "SAMSUNG GALAXY S8 |KOLORY WYBÓR|GWARANCJA|",
+            "img": "https://a.allegroimg.com/s180/1163dc/e43b7ea344bd9d80f4e035e81ea9/SAMSUNG-GALAXY-S8-KOLORY-WYBOR-GWARANCJA",
+            "price": "679,99"
+        },
+        {
+            "id": 5,
+            "name": "Smartfon XIAOMI Redmi 9C 3/64GB Szary",
+            "img": "https://a.allegroimg.com/s180/11a6c3/45a4d8e64a79965a30294ebdb6bc/Smartfon-XIAOMI-Redmi-9C-3-64GB-Szary",
+            "price": "499,00"
+        },
+        {
+            "id": 6,
+            "name": "ZEGAREK MĘSKI SMARTWATCH EKG ROZMOWY CIŚNIENIE 4.0",
+            "img": "https://a.allegroimg.com/s180/11e500/7c5665cb4fbca54190a20b00074f/ZEGAREK-MESKI-SMARTWATCH-EKG-ROZMOWY-CISNIENIE-4-0",
+            "price": "169,99"
+        },
+        {
+            "id": 7,
+            "name": "PANCERNY SAMSUNG XCOVER 3 G388f |GWARANCJA|GRATISY",
+            "img": "https://a.allegroimg.com/s180/112e53/54d7140e432cb370e63c510326d4/PANCERNY-SAMSUNG-XCOVER-3-G388f-GWARANCJA-GRATISY",
+            "price": "199,99"
+        },
+        {
+            "id": 8,
+            "name": "SAMSUNG Galaxy S2 SII I9100 ORYGINAŁ 16GB",
+            "img": "https://a.allegroimg.com/s180/11f0e2/10b059cb4b7087ac6982aace4e14/SAMSUNG-Galaxy-S2-SII-I9100-ORYGINAL-16GB",
+            "price": "179,00"
+        },
+        {
+            "id": 9,
+            "name": "SMARTWATCH DAMSKI MĘSKI WIELOFUNKCYJNY + GRATIS",
+            "img": "https://a.allegroimg.com/s180/11e2a1/22e7a22f4506af7f93e73eebc944/SMARTWATCH-DAMSKI-MESKI-WIELOFUNKCYJNY-GRATIS",
+            "price": "99,90"
+        },
+        {
+            "id": 10,
+            "name": "Baseus kabel USB-C Typ C Quick Charge 3.0 2A 200cm",
+            "img": "https://f.allegroimg.com/s180/0378be/756eedbf42fbb5ef201441d7418f/Baseus-kabel-USB-C-Typ-C-Quick-Charge-3-0-2A-200cm",
+            "price": "22,90"
+        },
+        {
+            "id": 11,
+            "name": "Czarny Smartfon SAMSUNG Galaxy M12 4/64GB",
+            "img": "https://a.allegroimg.com/s180/11ccfd/addd01de4591b61544e9c248887a/Czarny-Smartfon-SAMSUNG-Galaxy-M12-4-64GB",
+            "price": "699,00"
+        },
+        {
+            "id": 12,
+            "name": "BASEUS POWER BANK 30000MAH 3XUSB USB-C PD 15W 3A",
+            "img": "https://a.allegroimg.com/s180/11fed2/974f649d438cb3873ef2ca7b1606/BASEUS-POWER-BANK-30000MAH-3XUSB-USB-C-PD-15W-3A",
+            "price": "119,00"
+        },
+        {
+            "id": 13,
+            "name": "STACJA LUTOWNICZA SPAWARKA HOT-AIR 858D 100-500°C",
+            "img": "https://a.allegroimg.com/s180/11e4e2/af04a87e4d4ebac32e1c8c4abec9/STACJA-LUTOWNICZA-SPAWARKA-HOT-AIR-858D-100-500C",
+            "price": "149,99"
+        },
+        {
+            "id": 14,
+            "name": "Czarny Smartfon REALME 8 6/128GB",
+            "img": "https://a.allegroimg.com/s180/112b45/365a9e174f53a48d01cec7880f37/Czarny-Smartfon-REALME-8-6-128GB",
+            "price": "999,00"
+        },
+        {
+            "id": 15,
+            "name": "SAMSUNG GALAXY S9 |KOLORY WYBÓR|GWARANCJA|",
+            "img": "https://a.allegroimg.com/s180/113825/4e3c75804f0f840b9f7b13068025/SAMSUNG-GALAXY-S9-KOLORY-WYBOR-GWARANCJA",
+            "price": "749,99"
+        },
+        {
+            "id": 16,
+            "name": "Huawei Watch GT 2 Pro VID-B19 Black",
+            "img": "https://a.allegroimg.com/s180/11d4f7/355fb90c4bfb80985726e7f8bb73/Huawei-Watch-GT-2-Pro-VID-B19-Black",
+            "price": "806,99"
+        },
+        {
+            "id": 17,
+            "name": "Niebieski Smartfon REALME C21Y 4/64GB",
+            "img": "https://a.allegroimg.com/s180/1164b9/fdb11eaf4b918660824f650e6796/Niebieski-Smartfon-REALME-C21Y-4-64GB",
+            "price": "599,00"
+        },
+        {
+            "id": 18,
+            "name": "BASEUS POWER BANK 20000MAH 3X USB USB-C PD 15W 3A",
+            "img": "https://a.allegroimg.com/s180/1162b6/530fe3da436cb96db2946476e650/BASEUS-POWER-BANK-20000MAH-3X-USB-USB-C-PD-15W-3A",
+            "price": "74,90"
+        },
+        {
+            "id": 19,
+            "name": "Apple iPhone 6 64GB Kolory do wyboru + Gratisy",
+            "img": "https://a.allegroimg.com/s180/1184fe/0d43313340b09900447ba06ad3c1/Apple-iPhone-6-64GB-Kolory-do-wyboru-Gratisy",
+            "price": "329,00"
+        },
+        {
+            "id": 20,
+            "name": "Niebieski Smartfon MOTOROLA Moto E7 Power 4/64GB",
+            "img": "https://a.allegroimg.com/s180/1183d3/746879f34b1883e0ece7cd977ec5/Niebieski-Smartfon-MOTOROLA-Moto-E7-Power-4-64GB",
+            "price": "499,00"
+        },
+        {
+            "id": 21,
+            "name": "Xiaomi Redmi Note 9 Pro 6/128 GB zielony",
+            "img": "https://a.allegroimg.com/s180/110ad8/4108b3374958919a763a27f5dd04/Xiaomi-Redmi-Note-9-Pro-6-128-GB-zielony",
+            "price": "999,00"
+        },
+        {
+            "id": 22,
+            "name": "Biały Smartfon SAMSUNG Galaxy M22 4/128GB",
+            "img": "https://a.allegroimg.com/s180/1148f3/dca32be44fdeba9e3de4d5298a93/Bialy-Smartfon-SAMSUNG-Galaxy-M22-4-128GB",
+            "price": "799,00"
+        },
+        {
+            "id": 23,
+            "name": "Samsung Galaxy A51 A515F 4/128 Kolory",
+            "img": "https://a.allegroimg.com/s180/111897/998e444b4257ab286c115ef5c690/Samsung-Galaxy-A51-A515F-4-128-Kolory",
+            "price": "899,00"
+        },
+        {
+            "id": 24,
+            "name": "Smartfon Medion E5005 LTE 16GB DualSIM QuadCore",
+            "img": "https://a.allegroimg.com/s180/11b01e/8a0004a6497893333911f28adef7/Smartfon-Medion-E5005-LTE-16GB-DualSIM-QuadCore",
+            "price": "159,00"
+        },
+        {
+            "id": 25,
+            "name": "Smartwatch damski KW10 MESH DESIGN kroki puls cykl",
+            "img": "https://a.allegroimg.com/s180/112c7a/8a16c9854d5a818c737a5f8e51fa/Smartwatch-damski-KW10-MESH-DESIGN-kroki-puls-cykl",
+            "price": "159,99"
+        },
+        {
+            "id": 26,
+            "name": "BASEUS POWER BANK 30000MAH 3XUSB USB-C PD 15W 3A",
+            "img": "https://a.allegroimg.com/s180/11fed2/974f649d438cb3873ef2ca7b1606/BASEUS-POWER-BANK-30000MAH-3XUSB-USB-C-PD-15W-3A",
+            "price": "119,00"
+        },
+        {
+            "id": 27,
+            "name": "Smartwatch Męski Damski Wielofunkcyjny Opaska M6",
+            "img": "https://a.allegroimg.com/s180/11ea03/95ce375f49288432c33e4b448547/Smartwatch-Meski-Damski-Wielofunkcyjny-Opaska-M6",
+            "price": "44,99"
+        },
+        {
+            "id": 28,
+            "name": "TYP-C KABEL QUICK CHARGE 3.0 SZYBKIE ŁADOWANIE",
+            "img": "https://a.allegroimg.com/s180/11a5c1/3a3c17b34b6da7949ba7a1a977b0/TYP-C-KABEL-QUICK-CHARGE-3-0-SZYBKIE-LADOWANIE",
+            "price": "7,90"
+        },
+        {
+            "id": 29,
+            "name": "TRANSMITER BLUETOOTH FM MP3 SD ŁADOWARKA 2xUSB",
+            "img": "https://a.allegroimg.com/s180/119158/2143c4e246f687a07b498f21d654/TRANSMITER-BLUETOOTH-FM-MP3-SD-LADOWARKA-2xUSB",
+            "price": "24,90"
+        },
+        {
+            "id": 30,
+            "name": "Oppo Find X2 Lite CPH2005 8/128GB Black Czarny",
+            "img": "https://a.allegroimg.com/s180/11df6e/6203af59469ba33af4881e07979e/Oppo-Find-X2-Lite-CPH2005-8-128GB-Black-Czarny",
+            "price": "849,00"
+        },
+        {
+            "id": 31,
+            "name": "Smartfon Smartfon Xiaomi Redmi 9A 2/32GB Grey",
+            "img": "https://a.allegroimg.com/s180/117075/6782a30845d48fe5d77dd84aa936/Smartfon-Smartfon-Xiaomi-Redmi-9A-2-32GB-Grey",
+            "price": "429,00"
+        },
+        {
+            "id": 32,
+            "name": "ZEGAREK MĘSKI SMARTWATCH E3 PULS WODOODPORNY IP68",
+            "img": "https://a.allegroimg.com/s180/11ba12/73e1deeb4734b4bc2f00fdb00c5c/ZEGAREK-MESKI-SMARTWATCH-E3-PULS-WODOODPORNY-IP68",
+            "price": "149,99"
+        },
+        {
+            "id": 33,
+            "name": "SmartWatch DAMSKI EKG ciśnieniomierz POLSKI BT5.0",
+            "img": "https://a.allegroimg.com/s180/11c26b/3d5ee8da4baf8cfa0c3e7dd0c324/SmartWatch-DAMSKI-EKG-cisnieniomierz-POLSKI-BT5-0",
+            "price": "248,00"
+        },
+        {
+            "id": 34,
+            "name": "Baseus uchwyt magnetyczny na telefon do kratki",
+            "img": "https://a.allegroimg.com/s180/0305c6/b16228324ba6b35f5a03d33ac683/Baseus-uchwyt-magnetyczny-na-telefon-do-kratki",
+            "price": "29,90"
+        },
+        {
+            "id": 35,
+            "name": "Lenovo Medion MD99915 5' LTE 16GB DualSIM QuadCore",
+            "img": "https://a.allegroimg.com/s180/113f88/b86d27574136b769277abbad2cb9/Lenovo-Medion-MD99915-5-LTE-16GB-DualSIM-QuadCore",
+            "price": "149,00"
+        },
+        {
+            "id": 36,
+            "name": "SMARTWATCH ZEGAREK DAMSKI EXCLUSIVE DLA KOBIETY",
+            "img": "https://a.allegroimg.com/s180/11a6f5/3a2c0d7646189fc5bdf20de8bd88/SMARTWATCH-ZEGAREK-DAMSKI-EXCLUSIVE-DLA-KOBIETY",
+            "price": "239,99"
+        },
+        {
+            "id": 37,
+            "name": "SMARTWATCH DAMSKI ZEGAREK SMARTBAND KROK PULS KW10",
+            "img": "https://a.allegroimg.com/s180/111079/da4ff5b648bab81f6ac0361eb76f/SMARTWATCH-DAMSKI-ZEGAREK-SMARTBAND-KROK-PULS-KW10",
+            "price": "154,99"
+        },
+        {
+            "id": 38,
+            "name": "Oryginalny Samsung Galaxy S10 8/128gb",
+            "img": "https://a.allegroimg.com/s180/11422c/840dd9974148b07574d43e4a1f88/Oryginalny-Samsung-Galaxy-S10-8-128gb",
+            "price": "1 299,00"
+        },
+        {
+            "id": 39,
+            "name": "SMARTWATCH ZEGAREK DAMSKI ZŁOTY ROZMOWY CIŚNIENIE",
+            "img": "https://a.allegroimg.com/s180/11a58f/9e248df640078b7518fdd80c65e0/SMARTWATCH-ZEGAREK-DAMSKI-ZLOTY-ROZMOWY-CISNIENIE",
+            "price": "224,99"
+        },
+        {
+            "id": 40,
+            "name": "SMARTWATCH DAMSKI ZEGAREK SMARTBAND WODOODPORNY BT",
+            "img": "https://a.allegroimg.com/s180/11e272/def267294eb8bb75eddb6b326584/SMARTWATCH-DAMSKI-ZEGAREK-SMARTBAND-WODOODPORNY-BT",
+            "price": "97,31"
+        },
+        {
+            "id": 41,
+            "name": "Baseus kabel USB-C Typ C Quick Charge 3.0 2A 200cm",
+            "img": "https://f.allegroimg.com/s180/0378be/756eedbf42fbb5ef201441d7418f/Baseus-kabel-USB-C-Typ-C-Quick-Charge-3-0-2A-200cm",
+            "price": "22,90"
+        },
+        {
+            "id": 42,
+            "name": "SMARTWATCH DAMSKI MĘSKI WIELOFUNKCYJNY + GRATIS",
+            "img": "https://a.allegroimg.com/s180/11e2a1/22e7a22f4506af7f93e73eebc944/SMARTWATCH-DAMSKI-MESKI-WIELOFUNKCYJNY-GRATIS",
+            "price": "99,90"
+        },
+        {
+            "id": 43,
+            "name": "Baseus uchwyt magnetyczny na telefon do kratki",
+            "img": "https://a.allegroimg.com/s180/0305c6/b16228324ba6b35f5a03d33ac683/Baseus-uchwyt-magnetyczny-na-telefon-do-kratki",
+            "price": "29,90"
+        },
+        {
+            "id": 44,
+            "name": "Samsung Galaxy A52s 5G SM-A528B 6/128GB Violet",
+            "img": "https://a.allegroimg.com/s180/11d2c4/3c675f2347bc9b227f8f988f1995/Samsung-Galaxy-A52s-5G-SM-A528B-6-128GB-Violet",
+            "price": "1 629,00"
+        },
+        {
+            "id": 45,
+            "name": "SMARTWATCH Zegarek 600mAh ROZMOWY PL EKG Pulsometr",
+            "img": "https://a.allegroimg.com/s180/1100ee/f254cf6d46a395853e1e2d50c1e4/SMARTWATCH-Zegarek-600mAh-ROZMOWY-PL-EKG-Pulsometr",
+            "price": "249,99"
+        },
+        {
+            "id": 46,
+            "name": "ZESTAW LUTOWNICA PISTOLET ZD722 130W KALAFONI CYNA",
+            "img": "https://a.allegroimg.com/s180/11582f/b3b424174abdbed525539d2ef874/ZESTAW-LUTOWNICA-PISTOLET-ZD722-130W-KALAFONI-CYNA",
+            "price": "40,00"
+        },
+        {
+            "id": 47,
+            "name": "Szary Smartfon SAMSUNG Galaxy S21 5G SM-G991",
+            "img": "https://a.allegroimg.com/s180/1154fd/2fef3f544b58a5e6f5ce41362fe1/Szary-Smartfon-SAMSUNG-Galaxy-S21-5G-SM-G991",
+            "price": "2 799,00"
+        },
+        {
+            "id": 48,
+            "name": "Smartfon vivo Y33s 8/128GB Midday Dream NFC 90Hz",
+            "img": "https://a.allegroimg.com/s180/116bbc/be191aa44f43a71e938cced78487/Smartfon-vivo-Y33s-8-128GB-Midday-Dream-NFC-90Hz",
+            "price": "899,00"
+        },
+        {
+            "id": 49,
+            "name": "M6 SMARTBAND OPASKA SPORTOWA SMARTWATCH ZEGAREK",
+            "img": "https://a.allegroimg.com/s180/11f81f/b907746346179f26c5f8703c36ba/M6-SMARTBAND-OPASKA-SPORTOWA-SMARTWATCH-ZEGAREK",
+            "price": "44,99"
+        },
+        {
+            "id": 50,
+            "name": "BASEUS POWER BANK 10000MAH PD 20W 3xUSB USB-C QC",
+            "img": "https://a.allegroimg.com/s180/11d4d8/fe6e3c21493bb14b74dd49c1118a/BASEUS-POWER-BANK-10000MAH-PD-20W-3xUSB-USB-C-QC",
+            "price": "69,90"
+        },
+        {
+            "id": 51,
+            "name": "BASEUS POWER BANK 10000MAH PD 20W 3xUSB USB-C QC",
+            "img": "https://assets.allegrostatic.com/metrum/placeholder/placeholder-20d85ed501.svg",
+            "price": "69,90"
+        },
+        {
+            "id": 52,
+            "name": "Powerbank Xiaomi Redmi 18W Fast Charger 20000 mAh",
+            "img": "https://a.allegroimg.com/s180/111e82/0de933cd41fdba8a34aaaae14853/Powerbank-Xiaomi-Redmi-18W-Fast-Charger-20000-mAh",
+            "price": "87,33"
+        },
+        {
+            "id": 53,
+            "name": "Baseus transmiter FM bluetooth ładowarka MP3 2xUSB",
+            "img": "https://3.allegroimg.com/s180/0343aa/8c5ce389406789017a2b5e56c6a3/Baseus-transmiter-FM-bluetooth-ladowarka-MP3-2xUSB",
+            "price": "49,90"
+        }
+    ]
+}

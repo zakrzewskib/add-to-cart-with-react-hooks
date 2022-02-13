@@ -17,9 +17,8 @@
 }
 
 .cart-modal {
-    position: fixed;
     top: 7rem;
-    right: 1rem;
+    right: 20%;
     width: 40rem;
     height: 30rem;
 }
@@ -39,8 +38,10 @@
 
 @media (max-width: 600px) {
     .cart-modal {
-        width: 100%;
+        position: fixed;
+        left: 0;
         right: 0;
+        width: 100%;
     }
 }
 
