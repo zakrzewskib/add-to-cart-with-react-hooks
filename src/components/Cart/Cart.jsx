@@ -1,4 +1,4 @@
-import React, { useState, useContext } from "react";
+import React, { useState, useContext, useEffect } from "react";
 import CartContext from "../store/cart-context";
 import Modal from "../UI/Modal";
 
@@ -40,9 +40,30 @@ const Cart = () => {
     );
   });
 
+  const [justAddedToCart, setJustAddedToCart] = useState(false);
+
+  const btnClasses = `${classes["cart"]} ${
+    justAddedToCart ? classes["bump"] : ""
+  }`;
+
+  useEffect(() => {
+    if (offers.length === 0) {
+      return;
+    }
+    setJustAddedToCart(true);
+
+    const timer = setTimeout(() => {
+      setJustAddedToCart(false);
+    }, 300); // animation: bump 300ms ease-out;
+
+    return () => {
+      clearTimeout(timer);
+    };
+  }, [offers]);
+
   return (
     <li
-      className={classes["cart"]}
+      className={btnClasses}
       onMouseOver={handleMouseOver}
       onMouseOut={handleMouseOut}
     >
