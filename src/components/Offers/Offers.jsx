@@ -5,26 +5,8 @@ import Offer from "./Offer";
 import classes from "./Offers.module.css";
 
 const Offers = () => {
-  const offers = [
-    {
-      id: "1",
-      name: "Niebieski Smartfon MOTOROLA Moto E7 Power 4/64GB",
-      img: "https://a.allegroimg.com/s180/11287d/e4c818ae4965b6101adc6b31bf8d/Niebieski-Smartfon-MOTOROLA-Moto-E7-Power-4-64GB",
-      price: 499.0,
-    },
-    {
-      id: "2",
-      name: "Samsung A50 4G LTE 128GB/4GB GWARANCJA Sklep",
-      img: "https://a.allegroimg.com/s180/111027/64d6f9604e659010ed665c6fc167/Samsung-A50-4G-LTE-128GB-4GB-GWARANCJA-Sklep",
-      price: 679.99,
-    },
-    {
-      id: "3",
-      name: "Smartfon XIAOMI Redmi 9C 3/64GB Szary",
-      img: "https://a.allegroimg.com/s180/11a6c3/45a4d8e64a79965a30294ebdb6bc/Smartfon-XIAOMI-Redmi-9C-3-64GB-Szary",
-      price: 499.0,
-    },
-  ];
+  const data = require("../../data/offers.json");
+  const offers = data["offers"];
 
   const offerList = offers.map(offer => {
     return <Offer offer={offer} key={offer.id} />;

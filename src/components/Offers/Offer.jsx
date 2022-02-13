@@ -7,8 +7,11 @@ import OfferModalContent from "./OfferModalContent";
 
 const Offer = props => {
   const offer = props.offer;
-  const integerPart = Math.trunc(offer.price);
-  const decimal = (offer.price - Math.floor(offer.price)) * 100;
+  const price = parseFloat(
+    offer.price.replace(/\s/g, "").replace(/,/, ".")
+  );
+  const integerPart = Math.trunc(price);
+  const decimal = (price - Math.floor(price)) * 100;
   const decimalToInt = String("0" + Math.trunc(decimal)).slice(-2);
 
   const [isHovering, setIsHovering] = useState(false);
@@ -24,7 +27,7 @@ const Offer = props => {
   const cartCtx = useContext(CartContext);
 
   const addToCart = () => {
-    cartCtx.addItem(offer);
+    cartCtx.addItem({ ...offer, price: price });
   };
 
   return (

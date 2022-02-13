@@ -22,7 +22,7 @@ URL = 'https://allegro.pl/kategoria/telefony-i-akcesoria'
 
 # python scraping_data.py setup
 if len(argv) > 1 and argv[1] == 'setup':
-	cursor.execute('''CREATE TABLE offers (name TEXT, img TEXT, price REAL)''')
+	cursor.execute('''CREATE TABLE offers (id INTEGER PRIMARY KEY, name TEXT, img TEXT, price REAL)''')
 	quit()
 
 # does not work
@@ -51,7 +51,7 @@ def get_data_from_page(URL):
     price = parse_price(price)
     print(img, name, price)
 
-    cursor.execute('INSERT INTO offers VALUES (?, ?, ?)', (name, img, price))
+    cursor.execute('INSERT INTO offers (name, img, price) VALUES(?, ?, ?)', (name, img, price))
   db.commit()
 
 get_data_from_page(URL)
