@@ -2,15 +2,6 @@
     position: relative;
 }
 
-.cart-items-list {
-    display: flex;
-    padding: 2rem;
-    flex-direction: column;
-    gap: 2rem;
-    overflow-y: auto;
-    height: 100%;
-}
-
 .number-of-items {
     background-color: #ff5a00;
     color: #fff;

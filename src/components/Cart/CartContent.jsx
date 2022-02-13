@@ -9,7 +9,13 @@ const CartContent = props => {
         <h2>Twój koszyk</h2>
         <div className={classes["amount"]}>
           <p className={classes["cart-value"]}> WARTOŚĆ KOSZYKA </p>
-          <h2>{props.totalAmount} zł</h2>
+          <h2
+            className={`${
+              props.totalAmount > 10000 ? classes["smaller"] : ""
+            }`}
+          >
+            {props.totalAmount} zł
+          </h2>
         </div>
       </div>
       {props.cartItems.length === 0 ? (

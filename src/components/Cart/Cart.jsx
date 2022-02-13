@@ -22,13 +22,13 @@ const Cart = () => {
   const offers = cartCtx.items;
   const totalAmount = cartCtx.totalAmount.toFixed(2);
 
-  const cartItemRemoveHandler = id => {
-    cartCtx.removeItem(id);
-  };
-
   const numberOfCartItems = offers.reduce((curNumber, item) => {
     return curNumber + item.amount;
   }, 0);
+
+  const cartItemRemoveHandler = id => {
+    cartCtx.removeItem(id);
+  };
 
   const cartItems = offers.map(item => {
     return (
@@ -53,7 +53,7 @@ const Cart = () => {
 
       <div className={classes["number-of-items"]}>{numberOfCartItems}</div>
 
-      <Modal isHovering={isHovering} myClass="cart-modal">
+      <Modal isHovering={true} myClass="cart-modal">
         <CartContent cartItems={cartItems} totalAmount={totalAmount} />
       </Modal>
     </li>

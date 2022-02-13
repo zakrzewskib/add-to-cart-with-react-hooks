@@ -6,6 +6,10 @@
     height: 100%;
 }
 
+.smaller {
+    font-size: 1.6rem;
+}
+
 .your-cart {
     display: flex;
     gap: 1rem;
@@ -27,4 +31,12 @@
 .empty {
     margin-top: 2rem;
     text-align: center;
+}
+
+.cart-items-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    overflow-y: auto;
+    height: 100%;
 }
