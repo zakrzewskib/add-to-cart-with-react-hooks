@@ -19,7 +19,7 @@ const Cart = () => {
   const cartCtx = useContext(CartContext);
 
   const offers = cartCtx.items;
-  const totalAmount = cartCtx.totalAmount;
+  const totalAmount = cartCtx.totalAmount.toFixed(2);
 
   const cartItemRemoveHandler = id => {
     cartCtx.removeItem(id);
@@ -48,11 +48,15 @@ const Cart = () => {
 
       <Modal isHovering={true} myClass="cart-modal">
         <div className={classes["cart-container"]}>
-          <p className={classes["totalAmount"]}>
-            totalAmount = {totalAmount}
-          </p>
+          <div className={classes["your-cart"]}>
+            <h2>Twój koszyk</h2>
+            <div className={classes["amount"]}>
+              <p className={classes["cart-value"]}> WARTOŚĆ KOSZYKA </p>
+              <h2>{totalAmount} zł</h2>
+            </div>
+          </div>
           {cartItems.length === 0 ? (
-            <p>Twój koszyk jest pusty</p>
+            <p className={classes["empty"]}>Twój koszyk jest pusty</p>
           ) : (
             <ul className={classes["cart-items-list"]}>{cartItems}</ul>
           )}
