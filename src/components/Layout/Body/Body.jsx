@@ -10,33 +10,38 @@ const Body = () => {
   const isLessThan900px = useMediaQuery({ query: "(max-width:900px)" });
 
   return (
-    <div>
-      <h1 className={classes["body-header"]}>
-        Telefony i Akcesoria <span>(11 624 248 ofert)</span>
-      </h1>
-      <Breadcrumbs />
-      <div className={classes["body-content"]}>
-        {!isLessThan900px && (
-          <div className={classes["subcategories"]}>
-            <h2>Podkategorie</h2>
-          </div>
-        )}
-        <div
-          className={`${
-            !isLessThan900px
-              ? classes["sponsored-and-offers"]
-              : classes["sponsored-and-offers-mobile"]
-          }`}
-        >
-          <div className={classes["sponsored"]}>
-            <h2>Sponsorowane</h2>
-          </div>
-          <div className={classes["offers"]}>
-            <Offers />
+    <main className="body-container">
+      <div className="container">
+        <header>
+          <h1 className={classes["body-header"]}>
+            Telefony i Akcesoria <span>(11 624 248 ofert)</span>
+          </h1>
+          <Breadcrumbs />
+        </header>
+
+        <div className={classes["body-content"]}>
+          {!isLessThan900px && (
+            <nav className={classes["subcategories"]}>
+              <h2>Podkategorie</h2>
+            </nav>
+          )}
+          <div
+            className={`${
+              !isLessThan900px
+                ? classes["sponsored-and-offers"]
+                : classes["sponsored-and-offers-mobile"]
+            }`}
+          >
+            <section className={classes["sponsored"]}>
+              <h2>Sponsorowane</h2>
+            </section>
+            <section className={classes["offers"]}>
+              <Offers />
+            </section>
           </div>
         </div>
       </div>
-    </div>
+    </main>
   );
 };
 

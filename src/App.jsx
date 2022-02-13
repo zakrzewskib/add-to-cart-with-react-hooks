@@ -6,11 +6,7 @@ const App = () => {
   return (
     <CartProvider>
       <Header />
-      <div className="body-container">
-        <div className="container">
-          <Body />
-        </div>
-      </div>
+      <Body />
     </CartProvider>
   );
 };

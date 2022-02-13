@@ -8,13 +8,12 @@ const LoginButton = () => {
 
   return (
     <>
-      {isLessThan1200px && (
+      {isLessThan1200px ? (
         <img
           src="https://assets.allegrostatic.com/metrum/icon/user-0135502fa4.svg"
           alt=""
         ></img>
-      )}
-      {!isLessThan1200px && (
+      ) : (
         <div className={classes["login-button"]}>
           <a href="placeholder" className={classes["be-smart"]}>
             bądź

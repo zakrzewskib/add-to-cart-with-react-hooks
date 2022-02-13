@@ -1,6 +1,9 @@
 .breadcrumbs {
-    display: flex;
     margin-bottom: 2.4rem;
+}
+
+.breadcrumbs ul {
+    display: flex;
 }
 
 .breadcrumbs a {

@@ -11,8 +11,8 @@ const Header = () => {
   const isLessThan600px = useMediaQuery({ query: "(max-width: 600px)" });
 
   return (
-    <div className="sticky">
-      <header className={`${classes["header"]} container`}>
+    <header className="sticky">
+      <div className={`${classes["header"]} container`}>
         <div className={classes["header-flex"]}>
           <img
             className={`${
@@ -27,8 +27,8 @@ const Header = () => {
           <Navigation />
         </div>
         {isLessThan1000px && <SearchBar isMobile={isLessThan600px} />}
-      </header>
-    </div>
+      </div>
+    </header>
   );
 };
 
