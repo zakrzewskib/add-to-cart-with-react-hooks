@@ -1,7 +1,7 @@
 .offers-list {
     display: flex;
     flex-direction: column;
-    padding: 1rem;
+    padding: 1.2rem;
 }
 
 .offers {

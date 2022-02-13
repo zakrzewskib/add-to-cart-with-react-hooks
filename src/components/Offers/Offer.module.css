@@ -1,6 +1,5 @@
 .offer {
     display: flex;
-    justify-content: space-between;
     padding: 1rem;
     cursor: pointer;
     position: relative;
@@ -34,11 +33,4 @@
 
 .decimal {
     font-size: 2rem;
-}
-
-.offer-modal-content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
 }
