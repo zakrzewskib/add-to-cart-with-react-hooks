@@ -33,7 +33,7 @@ const Offers = () => {
   return (
     <div className={classes["offers"]}>
       <h2>Oferty promowane</h2>
-      <ul className={classes["offers-list"]}>{offerList}</ul>
+      <ol className={classes["offers-list"]}>{offerList}</ol>
     </div>
   );
 };

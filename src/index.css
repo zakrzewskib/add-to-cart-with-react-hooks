@@ -13,7 +13,8 @@ body {
     font-size: 1.4rem;
 }
 
-ul {
+ul,
+ol {
     list-style-type: none;
 }
 

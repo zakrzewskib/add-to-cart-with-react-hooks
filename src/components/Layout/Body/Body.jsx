@@ -10,7 +10,7 @@ const Body = () => {
   const isLessThan900px = useMediaQuery({ query: "(max-width:900px)" });
 
   return (
-    <main className="body-container">
+    <div className="body-container">
       <div className="container">
         <header>
           <h1 className={classes["body-header"]}>
@@ -19,13 +19,13 @@ const Body = () => {
           <Breadcrumbs />
         </header>
 
-        <div className={classes["body-content"]}>
+        <main className={classes["body-content"]}>
           {!isLessThan900px && (
             <nav className={classes["subcategories"]}>
               <h2>Podkategorie</h2>
             </nav>
           )}
-          <div
+          <article
             className={`${
               !isLessThan900px
                 ? classes["sponsored-and-offers"]
@@ -38,10 +38,10 @@ const Body = () => {
             <section className={classes["offers"]}>
               <Offers />
             </section>
-          </div>
-        </div>
+          </article>
+        </main>
       </div>
-    </main>
+    </div>
   );
 };
 
