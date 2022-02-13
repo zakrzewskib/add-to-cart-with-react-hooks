@@ -18,6 +18,7 @@ input {
 
 input {
     border: none;
+    width: 70%;
 }
 
 input:focus {
