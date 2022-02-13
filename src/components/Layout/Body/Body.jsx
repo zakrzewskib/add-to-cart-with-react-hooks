@@ -11,7 +11,9 @@ const Body = () => {
 
   return (
     <div>
-      <h1 className={classes["body-header"]}>Telefony i Akcesoria</h1>
+      <h1 className={classes["body-header"]}>
+        Telefony i Akcesoria <span>(11 624 248 ofert)</span>
+      </h1>
       <Breadcrumbs />
       <div className={classes["body-content"]}>
         {!isLessThan900px && (

@@ -53,7 +53,7 @@ const Cart = () => {
 
       <div className={classes["number-of-items"]}>{numberOfCartItems}</div>
 
-      <Modal isHovering={true} myClass="cart-modal">
+      <Modal isHovering={isHovering} myClass="cart-modal">
         <CartContent cartItems={cartItems} totalAmount={totalAmount} />
       </Modal>
     </li>

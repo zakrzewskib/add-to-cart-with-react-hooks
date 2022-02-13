@@ -8,6 +8,12 @@
     margin-bottom: 1.6rem;
 }
 
+.body-header span {
+    font-size: 1.4rem;
+    font-weight: normal;
+    color: #767676;
+}
+
 .subcategories,
 .sponsored,
 .offers {
