@@ -25,6 +25,10 @@ const Cart = () => {
     cartCtx.removeItem(id);
   };
 
+  const numberOfCartItems = offers.reduce((curNumber, item) => {
+    return curNumber + item.amount;
+  }, 0);
+
   const cartItems = offers.map(item => {
     return (
       <CartItem
@@ -46,7 +50,9 @@ const Cart = () => {
         alt=""
       />
 
-      <Modal isHovering={true} myClass="cart-modal">
+      <div className={classes["number-of-items"]}>{numberOfCartItems}</div>
+
+      <Modal isHovering={isHovering} myClass="cart-modal">
         <div className={classes["cart-container"]}>
           <div className={classes["your-cart"]}>
             <h2>Twój koszyk</h2>
