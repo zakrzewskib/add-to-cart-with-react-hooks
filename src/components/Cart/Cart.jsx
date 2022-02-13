@@ -47,12 +47,16 @@ const Cart = () => {
       />
 
       <Modal isHovering={true} myClass="cart-modal">
-        {/* <p>totalAmount = {totalAmount}</p> */}
-        {cartItems.length === 0 ? (
-          <p>Twój koszyk jest pusty</p>
-        ) : (
-          <ul className={classes["cart-items-list"]}>{cartItems}</ul>
-        )}
+        <div className={classes["cart-container"]}>
+          <p className={classes["totalAmount"]}>
+            totalAmount = {totalAmount}
+          </p>
+          {cartItems.length === 0 ? (
+            <p>Twój koszyk jest pusty</p>
+          ) : (
+            <ul className={classes["cart-items-list"]}>{cartItems}</ul>
+          )}
+        </div>
       </Modal>
     </li>
   );

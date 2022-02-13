@@ -25,9 +25,7 @@
 }
 
 .block {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: block;
 }
 
 @keyframes slide-down {
