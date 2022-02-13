@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
+import CartContext from "../store/cart-context";
 import Modal from "../UI/Modal";
 
 import classes from "./Offer.module.css";
@@ -9,6 +10,8 @@ const Offer = props => {
   const decimal = (offer.price - Math.floor(offer.price)) * 100;
   const decimalToInt = String("0" + Math.trunc(decimal)).slice(-2);
 
+  const cartCtx = useContext(CartContext);
+
   const [isHovering, setIsHovering] = useState(false);
 
   const handleMouseOver = () => {
@@ -17,6 +20,10 @@ const Offer = props => {
 
   const handleMouseOut = () => {
     setIsHovering(false);
+  };
+
+  const addToCart = () => {
+    cartCtx.addItem(offer);
   };
 
   return (
@@ -42,7 +49,9 @@ const Offer = props => {
         </h2>
       </div>
       <Modal isHovering={isHovering} myClass="offer-modal">
-        <button className="primary-button">Dodaj do koszyka</button>
+        <button className="primary-button" onClick={addToCart}>
+          Dodaj do koszyka
+        </button>
       </Modal>
     </li>
   );
