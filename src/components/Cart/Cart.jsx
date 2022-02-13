@@ -3,6 +3,7 @@ import CartContext from "../store/cart-context";
 import Modal from "../UI/Modal";
 
 import classes from "./Cart.module.css";
+import CartContent from "./CartContent";
 import CartItem from "./CartItem";
 
 const Cart = () => {
@@ -53,20 +54,7 @@ const Cart = () => {
       <div className={classes["number-of-items"]}>{numberOfCartItems}</div>
 
       <Modal isHovering={isHovering} myClass="cart-modal">
-        <div className={classes["cart-container"]}>
-          <div className={classes["your-cart"]}>
-            <h2>Twój koszyk</h2>
-            <div className={classes["amount"]}>
-              <p className={classes["cart-value"]}> WARTOŚĆ KOSZYKA </p>
-              <h2>{totalAmount} zł</h2>
-            </div>
-          </div>
-          {cartItems.length === 0 ? (
-            <p className={classes["empty"]}>Twój koszyk jest pusty</p>
-          ) : (
-            <ul className={classes["cart-items-list"]}>{cartItems}</ul>
-          )}
-        </div>
+        <CartContent cartItems={cartItems} totalAmount={totalAmount} />
       </Modal>
     </li>
   );
