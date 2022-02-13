@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 65%;
+}
+
+body {
+    font-family: "Rubik", sans-serif;
+    font-size: 1.4rem;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+.container {
+    max-width: 130rem;
+    padding: 1rem 2rem;
+    margin: 0 auto;
+}
+
+.dropdown-icon {
+    transform: rotate(90deg);
+    height: 100%;
+}
+
+.body-container {
+    background-color: #edeff1;
+}
+
+.primary-button {
+    background-color: #ff5a00;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 1rem 1.6rem;
+    cursor: pointer;
+}
+
+.primary-button:hover {
+    background-color: #ff7b33;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px -2px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    z-index: 5;
+}

@@ -1,0 +1,15 @@
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+    height: 7rem;
+    align-items: center;
+    gap: 2rem;
+}
+
+.header-logo {
+    height: 75%;
+}
+
+.header-logo-small {
+    height: 60%;
+}

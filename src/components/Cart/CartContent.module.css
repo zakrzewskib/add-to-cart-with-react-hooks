@@ -1,0 +1,42 @@
+.cart-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem;
+    height: 100%;
+}
+
+.smaller {
+    font-size: 1.6rem;
+}
+
+.your-cart {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cart-value {
+    color: #838383;
+    font-size: smaller;
+}
+
+.amount {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.empty {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.cart-items-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    overflow-y: auto;
+    height: 100%;
+}
