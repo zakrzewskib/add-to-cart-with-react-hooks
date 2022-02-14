@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.afc4c774.css",
-    "main.js": "/static/js/main.a57e477e.js",
-    "index.html": "/index.html",
-    "main.afc4c774.css.map": "/static/css/main.afc4c774.css.map",
-    "main.a57e477e.js.map": "/static/js/main.a57e477e.js.map"
+    "main.css": "/add-to-cart-with-react-hooks/static/css/main.afc4c774.css",
+    "main.js": "/add-to-cart-with-react-hooks/static/js/main.a57e477e.js",
+    "index.html": "/add-to-cart-with-react-hooks/index.html",
+    "main.afc4c774.css.map": "/add-to-cart-with-react-hooks/static/css/main.afc4c774.css.map",
+    "main.a57e477e.js.map": "/add-to-cart-with-react-hooks/static/js/main.a57e477e.js.map"
   },
   "entrypoints": [
     "static/css/main.afc4c774.css",
