@@ -1,4 +1,9 @@
 #  add-to-cart-with-react-hooks
+- This is a project to practice React and more specifically React Context and useReducer hook. 
+- I decided to "clone" chosen parts of allegro website (https://allegro.pl/kategoria/telefony-i-akcesoria).
+- Than I added functionaly to add product to the cart <img src="https://assets.allegrostatic.com/metrum/icon/bag-c9f42da6df.svg" height="24px"/> 
+- Only hovering works (for example you can't click on icons or use search bar).
+
 
 <strong>Click here to preview the app:</strong>
 
@@ -23,9 +28,12 @@
 <em>Time: 1h</em>
 
 ### Screenshots:
+- Desktop:
 <img src="https://github.com/zakrzewskib/add-to-cart-with-react-hooks/blob/main/screenshots/screenshot-1.png" />
 <img src="https://github.com/zakrzewskib/add-to-cart-with-react-hooks/blob/main/screenshots/screenshot-2.png" />
 <!-- <img src="https://github.com/zakrzewskib/add-to-cart-with-react-hooks/blob/main/screenshots/screenshot-3.png" /> -->
+
+- Mobile:
 <div>
   <img src="https://github.com/zakrzewskib/add-to-cart-with-react-hooks/blob/main/screenshots/mobile-1.png" height="600"/>
   <img src="https://github.com/zakrzewskib/add-to-cart-with-react-hooks/blob/main/screenshots/mobile-2.png"  height="600"/>
